@@ -1,0 +1,15 @@
+*.zip
+/ECommerceSolution/.vs/CopilotSnapshots
+/ECommerceSolution/.vs
+*.cache
+*.Up2Date
+/ECommerceSolution/ECommerce.BL/obj
+/ECommerceSolution/ECommerce.DL/obj
+/ECommerceSolution/ECommerce.Models/obj
+/ECommerceSolution/ECommerce.UI/bin
+/ECommerceSolution/ECommerce.UI/obj
+/ECommerceSolution/ECommerce.Utilities/obj
+/ECommerceSolution/ECommerce.BL/bin
+/ECommerceSolution/ECommerce.DL/bin
+/ECommerceSolution/ECommerce.Models/bin
+/ECommerceSolution/ECommerce.Utilities/bin
