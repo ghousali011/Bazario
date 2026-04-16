@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ECommerce.UI</RootNamespace>
+    <AssemblyName>ECommerce.UI</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+        <ProjectReference Include="..\ECommerce.Models\ECommerce.Models.csproj">
+          <Project>{1A8FADD2-D77D-4B5E-B530-D995ABBDFC08}</Project>
+          <Name>ECommerce.Models</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\ECommerce.BL\ECommerce.BL.csproj">
+          <Project>{CA06F952-D16A-4479-98C4-D2F86D387B31}</Project>
+          <Name>ECommerce.BL</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\ECommerce.Utilities\ECommerce.Utilities.csproj">
+          <Project>{F9908FF7-0BF2-4C1A-894F-7925B3996DAE}</Project>
+          <Name>ECommerce.Utilities</Name>
+        </ProjectReference>
+  </ItemGroup>
+</Project>

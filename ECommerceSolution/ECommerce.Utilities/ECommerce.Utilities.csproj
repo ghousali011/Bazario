@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <UseWindowsForms>false</UseWindowsForms>
+    <RootNamespace>ECommerce.Utilities</RootNamespace>
+    <AssemblyName>ECommerce.Utilities</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.15.1" />
+    <PackageReference Include="MimeKit" Version="4.15.1" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

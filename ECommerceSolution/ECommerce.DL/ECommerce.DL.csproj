@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <UseWindowsForms>false</UseWindowsForms>
+    <RootNamespace>ECommerce.DL</RootNamespace>
+    <AssemblyName>ECommerce.DL</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.3.0" />
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.3.1" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.2" />
+  </ItemGroup>
+  <ItemGroup>
+        <ProjectReference Include="..\ECommerce.Models\ECommerce.Models.csproj">
+          <Project>{1A8FADD2-D77D-4B5E-B530-D995ABBDFC08}</Project>
+          <Name>ECommerce.Models</Name>
+        </ProjectReference>
+  </ItemGroup>
+</Project>

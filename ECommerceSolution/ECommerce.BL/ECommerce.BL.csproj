@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <UseWindowsForms>false</UseWindowsForms>
+    <RootNamespace>ECommerce.BL</RootNamespace>
+    <AssemblyName>ECommerce.BL</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+        <ProjectReference Include="..\ECommerce.Models\ECommerce.Models.csproj">
+          <Project>{1A8FADD2-D77D-4B5E-B530-D995ABBDFC08}</Project>
+          <Name>ECommerce.Models</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\ECommerce.DL\ECommerce.DL.csproj">
+          <Project>{CB8C61AB-8F27-407D-A565-D9DB739C5269}</Project>
+          <Name>ECommerce.DL</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\ECommerce.Utilities\ECommerce.Utilities.csproj">
+          <Project>{F9908FF7-0BF2-4C1A-894F-7925B3996DAE}</Project>
+          <Name>ECommerce.Utilities</Name>
+        </ProjectReference>
+  </ItemGroup>
+</Project>
